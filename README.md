@@ -8,7 +8,7 @@ Hello, My name is Robert W. Higgins Sr.   I am a retired IT Technical Manager.
 
 Currently, I run a part-time PC Help business in central Florida
 
-test change
+
 
 PROJECT0:
 I have created a WEB page that will assist users in managing their computers and avoid scams, called "PCSMART Guide".
