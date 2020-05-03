@@ -1,13 +1,96 @@
-div {
-                  font-family: algerian;
-                  font-size: 28px;
-                  font-weight: bold;
-                  color:red;
-                  text-align:center;
-              }
-div2 {
-                  font-family: algerian;
-                  font-size: 30px;
-                  font-weight: bold;
-                  color:#fc9d03;
-              }
+  *[lang=fr] { /* sets color red  */
+  color: blue;
+  text-align: center;
+ }
+          button {
+                height: 24px;
+                font-size: 12px;
+                background-color: white;
+            }
+
+            button:hover {
+                background-color: orange;
+            }
+h1 {
+  font-family: algerian;
+  font-size: 36px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+#middle {
+  font-family: timesroman;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: darkblue;
+
+}
+
+#uprbottom {
+  color: blue;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#lwrbottom {
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+a[href*="Fine"] {
+  color: white;
+    background-color: black
+}
+a[href*="Back"] {
+  color: red;
+    background-color: black
+}
+a[href*="Virus"] {
+  color: orange;
+    background-color: black
+}
+a[href*="System"] {
+  color: yellow;
+    background-color: black
+}
+
+#bodycolor {
+  background-color: #34ebe8;
+}
+
+.name {
+  font-weight: bold;
+  color: yellow;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+}
+
+p {
+  display: list-item;
+  list-style-type: none;
+  padding: 0 0 0 14px;
+  margin: 0;
+  text-align: left;
+}

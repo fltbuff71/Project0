@@ -15,14 +15,14 @@ I have created a WEB page that will assist users in managing their computers and
 
 The guide is not complete in content yet, but I thought it would be a great opportunity to use my CS50 Web Programming with Python and JavaScript course skills to eventually build this into a fully functional WEB based support tool, which I may offer on a WEB site and allow users to donate (via PayPal) to support the use of and development of the site.
 
-It will be a very robust user friendly tool that will include loads of documentation, freeware links, and WINDOWS scripts, tutorials etc., that the average end user can run on their own in a structurally prompted manner.  This concept will prevent users from installing vendor $$$ software that claim to clean system but in my experience have seen these systems can actually infect the users computer, sometimes on a time delayed basis, so the user does not suspect their newly installed software is the culprit
+It will be a very robust user friendly tool that will include loads of documentation, freeware links, and WINDOWS scripts, tutorials etc., that the average end user can run on their own in a structurally prompted manner.  This concept will prevent users from installing $$$ vendor software that claim to clean system but in my experience have seen these systems can actually infect the users computer, sometimes on a time delayed basis, so the user does not suspect their newly installed software is the culprit
 
 Using this tool, end users will not have to be a computer geek to properly maintain and fix common computer issues themselves.
 
 In order to focus on course content rather than website content while preparing my webpage, I first developed a prototype in Microsoft WORD.
 From that prototype, I manually created all of HTML code to fully satisfy all PROJECT0 course requirements.
 
-The main Menu page  **"PCSMART GUIDE"** is the main page for my **PCSMART GUIDE** application
+The main Menu page  **"PCSMART GUIDE"** is the main page.
 
 
 Sub-Pages include:
@@ -37,6 +37,8 @@ Sub-Pages include:
                Documents proven virus detection and removal tools
           System Recovery Options
                Determine and advise actions based on failure or issue
+
+While the pages themselves may not be the "best" designed for appearance, I made sure I was **satisfying** all of the project0 requirements in coding these pages.
 
    To be added at a **later** date,
          -For simplicity, provide User scripts that can be executed to automate complicated tasks
