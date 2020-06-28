@@ -1,0 +1,23 @@
+.Critical, .Warning, .Informational {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 60%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Informational {
+  background-color: green;
+}
+
+.Warning {
+  background-color: orange;
+}
+
+.Critical {
+  background-color: red;
+}
+
+/*# sourceMappingURL=inheritance.css.map */

@@ -1,4 +1,4 @@
-  *[lang=fr] { /* sets color red  */
+  *[lang=fr] { /* sets color blue  */
   color: blue;
   text-align: center;
  }
@@ -43,10 +43,7 @@ h1 {
 }
 
 
-a[href*="Fine"] {
-  color: white;
-    background-color: black
-}
+
 a[href*="Back"] {
   color: red;
     background-color: black
