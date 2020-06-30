@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <link rel="stylesheet" href="nesting.css">
+		<link rel="stylesheet" href="variables.css">
+		 <link rel="stylesheet" href="inheritance.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .row > div {
+                padding: 20px;
+                background-color: blue;
+								margin-top: 2%;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+  	<ol>
+	   <li>  test color sccs variable for BLUE text on ol</li>
+	</ol>
+	<p> HOT DEALS AVAILABLE LOCALLY (Test of nesting INSIDE of div) </p>
+  </div>
+  <p> See BLOG or GET IN TOUCH (Testing nesting OUTSIDE of div) </p>
+  <br>
+  <br>
+  <p> These three types of messages are testing the Inheritance feature </p>
+        <div class="Informational">These messages are Informational and require NO ACTION.</div>
+
+        <div class="Warning">These messages are Warnings and should be researched for possible ACTION.</div>
+
+        <div class="Critical">These messages indicate an action failed and was not fully executed, research and correct</div>
+    </body>
+</html>
