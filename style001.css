@@ -41,21 +41,32 @@ h1 {
   font-size: 24px;
   font-weight: bold;
 }
+a[href*="test"] {
+  color: yellow;
+    background-color: blue
+}
 
-
-
+a[href*="Helpful"] {
+  color: yellow;
+    background-color: blue
+}
+a[href*="Fine"] {
+  color: yellow;
+    background-color: blue
+}
 a[href*="Back"] {
-  color: red;
-    background-color: black
+  color: yellow;
+    background-color: blue
 }
 a[href*="Virus"] {
-  color: orange;
-    background-color: black
+  color: yellow;
+    background-color: blue
 }
 a[href*="System"] {
   color: yellow;
-    background-color: black
+    background-color: blue
 }
+
 
 #bodycolor {
   background-color: #34ebe8;

@@ -61,25 +61,30 @@ DOCUMENTATION Included that I used for my project work:
     SAS compile Nesting
     SAS compile Variables
 
-Also, after finally getting SUBMIT50 to get installed (had to google solution to get to work under UBUNTU)
+Also, after finally getting SUBMIT50 to get installed (had to google solution to get to work under Debian)
 Here's what I did to finally get something working:
 
-linux commands:
-    sudo apt update
-    sudo apt install python3-pip
+
+latest python3.8
+install debian
+sudo apt update
+install pip3  (sudo apt install python3-pip)
+sudo apt install git3-all
     pip3 install submit50
 then ....
-   Close the Ubuntu window and reopen (important - if you don't do this, then running 'submit50' will say "Command not found").
-   Now you can run submit50 in the Ubuntu window - 
-   note it will be installed in this Ubuntu Linux environment only and therefore cannot be run outside of it (i.e. it    cannot be run in a Windows command prompt).
+   Close the Debian window and reopen (important - if you don't do this, then running 'submit50' will say "Command not found").
+   Now you can run submit50 in the Debian window - 
+   note it will be installed in this Debian Linux environment only and therefore cannot be run outside of it (i.e. it    cannot be run in a Windows command prompt).
 
 In order to submit your assignment, you have to be in the directory where your assignment is located.  
 I did the following....
-fltbu@DESKTOP-N1PGFEA:~$ cd /
-fltbu@DESKTOP-N1PGFEA:/$ ls
-bin  boot  dev  etc  home  init  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
-fltbu@DESKTOP-N1PGFEA:/$ cd mnt/c/users/fltbu/documents/harvard/project0
-fltbu@DESKTOP-N1PGFEA:/mnt/c/users/fltbu/documents/harvard/project0$     submit50 web50/projects/2020/x/0
+
+In Windows, sign on to GITHUB as fltbuff71...
+then ...
+fltbuff71@DESKTOP-N1PGFEA:/$ cd /
+fltbuff71@DESKTOP-N1PGFEA:/$ cd ls
+fltbuff71@DESKTOP-N1PGFEA:/$ cd mnt/c/users/fltbu/documents/harvard/project0
+fltbuff71@DESKTOP-N1PGFEA:/mnt/c/users/fltbu/documents/harvard/project0$     submit50 web50/projects/2020/x/0
 
 
 

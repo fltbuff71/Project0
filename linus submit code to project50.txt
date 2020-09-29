@@ -1,0 +1,7 @@
+  cd /mnt/c/users
+cd fltbu/documents
+cd harvard
+cd project0
+submit50 web50/projects/2020/x/0
+ 
+ 
